@@ -14,7 +14,6 @@ public class TestBase {
         Configuration.baseUrl = config.getBaseUrl();
         Configuration.browser = config.getBrowserName();
         Configuration.browserVersion = config.getBrowserVersion();
-
         if (config.getRemoteWebDriver()) {
             Configuration.remote = config.getRemoteUrl();
         }
